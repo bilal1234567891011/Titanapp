@@ -2,3 +2,22 @@
     height: 60px;
     width: 60px;
 }
+.form-control {
+    border-radius: 29px;
+    width: 527px;
+    margin-left: 5px;
+    margin-right: 44px;
+    border-color: black;
+}
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 50%;
+    color:black;
+    top:22px;
+    margin-right: -448px;
+    margin-top: 14px;
+    
+
+} 
+

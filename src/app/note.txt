@@ -95,11 +95,12 @@ form creation in angular
          -FormBuilder        --class used to create model form
          -group()            --method to create model 
 
+form Group and form Control Name are the atribute  
 
 Local Storage In Angular
 ---------------------------------
 
-localStorage.getItem()
+localStorage.getItem() 
 localStorage.setItem()
 localStorage.removeItem()
 
@@ -136,6 +137,10 @@ class - Date
 Angular Pipes
 ---------------
 to convert datas into another format
+
+Pipe Creation
+-------------------
+      - ng g pipe (pipeName)
 
 API creation In Angular
 ------------------------
@@ -202,4 +207,52 @@ npm i --save json -server
 
 2.run server in server file location
    npx json-server --watch db.json --port 3000
+
+
+
+   --------------------------------------------------------------------------------
+
+   json server
+-------------
+1. install server
+npm i --save json-server
+2. run server in server file location
+   npx json-server --watch db.json --port 3000
+
+
+Angular Pipes
+-------------------
+to convert datas into another format
+
+  pipe Creation
+  ----------------
+        -ng g pipe (pipeName)
+
+
+women 1
+men 2
+kid 3
+
+
+
+Behaviour Subject
+---------------------
+
+-to share data between modules
+
+it is an asychronus method
+
+rxjs(reactive extension for js) library of behaviour subject
+rxjs is used to handle async implementations in angular
+
+
+Activated Route In Angular
+-----------------------------
+
+used to access data from urls (access params)
+module - Router Module
+class  - ActivatedRoute
+method - params() - (its a asynchronous method)
    
+   freshers world
+   -----------------

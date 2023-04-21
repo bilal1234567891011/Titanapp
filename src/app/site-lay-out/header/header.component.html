@@ -1,24 +1,25 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color: rgb(55, 203, 236);">
-    <div class="container px-4 px-lg-5">
-        <a style="color:  rgb(53, 209, 230);" class="navbar-brand" href="products"><img id="img"  src="https://i.postimg.cc/t4rd85rR/images-1.png" alt=""></a>
+    <div class="container px-4 px-lg-5" ba>
+        <a style="color:  rgb(53, 209, 230);" class="navbar-brand mt-0" href="products"><img id="img"  src="https://i.postimg.cc/t4rd85rR/images-1.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#!">AddProduct</a></li>
+                <li class="nav-item"><a class="nav-link" href="products/add_product" style="color: black;">Add New Product</a></li>
             </ul>
+            <div class="form-group">
+              <input [(ngModel)]="searchTerm" (keyup)="search($event)" type="text" class="form-control" placeholder="search products">
+          </div>
+          <span class="fas fa-search search-icon"></span>
+  
             <form class="d-flex">
-                <button class="btn btn-outline-dark" type="submit">
-                    <i class="bi-cart-fill me-1"></i>
-                    Cart
-                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                </button>
+               
             </form>
         </div>
     </div>
 </nav>
 <!-- Header-->
-<header class="py-5" style="background-color:  rgb(53, 209, 230);">
+<header class="py-1" style="background-color:  rgb(1, 20, 24);">
     <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,10 +48,10 @@
       </div>
  -->
 
-    <div class="container px-4 px-lg-5 my-5">
+    <div class="container px-4 px-lg-5 my-1">
         <div class="text-center text-white">
             <h1 class="display-4 fw-bolder">TITAN</h1>
-            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+            <p class="lead fw-normal text-white-50 mb-0"></p>
         </div>
     </div>
 </header>

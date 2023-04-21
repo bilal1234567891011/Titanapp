@@ -1,8 +1,96 @@
+<!-- <div class="container">
+    <div class="container row text-center">
+        <div  class="p-4 col-3">
+         <a (click)="filter('')"> 
+            <img style="height: 150px; width: 75%;" class="w-100 rounded-circle" src="https://i.postimg.cc/c4hGhh6Y/download-1.jpg" alt="">
+        <h4 class="pt-2">view All</h4>
+    </a>
+       </div>
+
+        <div class="p-4  col-3">
+            <a (click)="filter(1)">
+            <img style="height: 150px; width: 75%;" class="w-100 rounded-circle" src="https://i.postimg.cc/qMyfygLS/images.jpg" alt="">
+            <h4 class="pt-2">Women Watches</h4>
+        </a>
+          </div>
+          
+          <div class="p-4  col-3">
+            <a (click)="filter(2)">
+            <img style="height: 150px; width: 75%;" class="w-100 rounded-circle" src="https://i.postimg.cc/NFNKxpBG/images-1.jpg" alt="">
+            <h4 class="pt-2">Men Watches</h4>
+        </a>
+          </div>
+
+        <div class="p-4  col-3">
+            <a (click)="filter(3)">
+            <img style="height: 150px; width: 75%;" class="w-100 rounded-circle" src="https://i.postimg.cc/bvt8CLHY/images-2.jpg" alt="">
+            <h4 class="pt-2">Kid Watches</h4>
+        </a>
+        </div>
+   
+    </div>
+</div> -->
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active"><a (click)="filter('')">
+
+        <img  src="https://www.titan.co.in/wps/wcm/connect/titanrt/e036c022-e453-48b9-8a82-5f9fc3b291a6/desktop/2500x1000_lb_bb_220223.gif?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-e036c022-e453-48b9-8a82-5f9fc3b291a6-desktop-opT37MI" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: rgb(231, 20, 20); font-size: x-large;">View all</h5>
+        </div></a>
+      </div>
+
+      <div class="carousel-item"><a (click)="filter(1)">
+        <img src="      https://www.titan.co.in/wps/wcm/connect/titanrt/33c3a731-69c5-4e79-972b-457e11437976/desktop/Td_nebula_070423.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-33c3a731-69c5-4e79-972b-457e11437976-desktop-otptNQf
+        " class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color:rgb(231, 20, 20); font-size: x-large;">Women Watches</h5>
+        </div></a>
+      </div>
+
+      <div class="carousel-item"><a (click)="filter(2)"> 
+        <img src="https://www.titan.co.in/wps/wcm/connect/titanrt/fb2e8cc7-2df6-4a7b-9d24-58aaef4b82d0/desktop/TD_Newarrivals_280223.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-fb2e8cc7-2df6-4a7b-9d24-58aaef4b82d0-desktop-oqnu-Ne
+        " class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: rgb(231, 20, 20); font-size: x-large;">Mens Watches</h5>
+        </div></a>
+      </div>
+
+      <div class="carousel-item"><a (click)="filter(3)">
+        <img src="https://www.titan.co.in/wps/wcm/connect/titanrt/e9cc15b4-5426-46d8-98e7-e73cb542b8ce/desktop/TD_Smartfest_020323.jpg?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGR2D068O7K5LN3O26-e9cc15b4-5426-46d8-98e7-e73cb542b8ce-desktop-oqxwDET " 
+        class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: rgb(231, 20, 20); font-size: x-large;">Kids Watches</h5>
+        </div></a>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            <div *ngFor="let i of productDetailes " class="col mb-5">
-                <div class="card h-100">
+            <div *ngFor="let i of filterProducts | filter:searchkey:'productName' " class="col mb-5">
+                <div id="d1" class="card h-100">
                     <!-- Product image-->
                     <img class="card-img-top" src="{{i.productImage}}" alt="..." />
                     <!-- Product details-->
@@ -17,7 +105,7 @@
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view_product">View options</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/view_product/{{i.id }}">View options</a></div>
                     </div>
                 </div>
             </div>
